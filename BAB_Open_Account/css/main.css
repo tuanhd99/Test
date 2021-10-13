@@ -1,0 +1,61 @@
+.container_main{
+    margin-top: 132px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.iteam_1,.iteam_2,.iteam_3{
+    width: 364px;
+    height: 224px;
+    margin: 0 12px;
+    background-color: #EAAB00;
+    color: #111;
+    font-size: 18px;
+}
+.iteam_1 ,.iteam_2,.iteam_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.next_right,.previous{
+    position: absolute;
+    top:55%;
+    right: 2%;
+}
+.previous{
+    position: absolute;
+    left: 2%;
+    top: 55%;
+}
+.node_active{
+    position: absolute;
+    top: 70%;
+    left: 47.5%;
+}
+.node-inactive{
+    position: absolute;
+    top:69.5%;
+    left: 51.5%;
+}
+.fail_2{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+.wait_ttv2{
+    display: inline-block;
+    margin: 56px 0 53px 250px;
+}
+.wait_ttv3{
+    text-align: center;
+    margin-top: 36px;  
+}
+.wait_ttv2,
+.wait_ttv3,
+.wait_ttv{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+   
+}

@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 104px;
+}
+.header .center{
+    font-size: 30px;
+    color: #EAAB00;
+    padding-right: 5px;
+}
+.header .time{
+    font-size: 24px;
+    opacity: 0.5;
+}
+.main {
+    margin-top: 300px;
+    text-align: center;
+    /* background-color: #EAAB00; */
+}
+h2{
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: normal
+}
+.main .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+.iteam_1,.iteam_2{
+    width: 300px;
+    height: 184px;
+    margin: 0 12px;
+    background-color: #EAAB00;
+    color: #111;
+    font-size: 18px;
+}
+.iteam_1 ,.iteam_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}

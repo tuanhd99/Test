@@ -1,0 +1,25 @@
+.teller{
+    margin-top: 120px;
+    text-align: center;
+}
+.advise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+    text-align: center;
+}
+.advise_support{
+    font-weight: bold;
+    margin-bottom: 16px;
+
+}
+.advise_certain{
+    font-weight: normal;   
+} 
+.advise_support, .advise_certain{
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.8);
+
+}

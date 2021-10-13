@@ -1,0 +1,67 @@
+.slider{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 1024px;
+    width: 1280px;
+    background: radial-gradient(50% 50% at 50% 50%, #000000 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+.fail_1{
+    text-align: center;
+    margin-top: 225px;
+    position: relative;
+
+    
+}
+.fail_2{
+    top: -42%;
+    position: relative;
+    left: 0;
+}
+.fail_2{
+     text-align: center;
+
+}
+.chose .fail_connect,
+.select_button{
+    left: 50%;
+    transform:translate(-50%,-50%);
+    position: absolute;
+}
+.chose .fail_connect{
+    position: absolute;
+    top: 60%;
+  
+}
+.connect_one{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 12px;
+}.connect_two{
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.9);
+}
+.select_button{  
+    top: 80%;
+}
+.select_button input{
+    width: 269px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+}
+.select_button #retry{
+    background: #EAAB00;
+    margin-left: 12px;
+}
+.failure{
+    margin-top: 300px;
+    text-align: center;
+    
+}
+.failure img{
+    width: 132px;
+    height: 132px;
+}
